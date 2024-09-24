@@ -13,6 +13,7 @@ public class Season {
         this.episodes = episodes;
     }
 
+
     @Override
     public String toString() {
         return "Season{" +
@@ -21,4 +22,6 @@ public class Season {
                 ", episodes=" + episodes +
                 '}';
     }
+
+
 }

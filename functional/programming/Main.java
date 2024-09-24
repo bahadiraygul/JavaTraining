@@ -104,7 +104,8 @@ public class Main {
                 .flatMap(e->e.videos.stream())
                 .filter(v-> video.videoType == VideoType.PREVIEW)
                 .collect(Collectors.toList());
-                
+
+                System.out.println("updated");
 
 
 
